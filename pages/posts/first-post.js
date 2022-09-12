@@ -5,6 +5,9 @@ import Head from 'next/head'
 const FirstPost = () => {
   return (
     <div>
+      <Head>
+        <title>BLog</title>
+      </Head>
         <h1>first-post</h1>
         <Image src="/../public/images/profile.jpg" width={150} height={150} alt="Bhavya"/>
         <Link href='/'>to home</Link>
